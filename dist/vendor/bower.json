@@ -1,0 +1,13 @@
+{
+  "name": "ngChart",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "foundation": "latest",
+    "chartjs": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": "latest"
+  }
+}

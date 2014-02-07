@@ -1,0 +1,14 @@
+<label for="width">Width</label>
+<input id="width" type="number" ng-model="width">
+<label for="width">Height</label>
+<input id="height" type="number" ng-model="height">
+<button ng-click="chartSetup()">Apply</button>
+
+<canvas chart id="mycanvas" type="Radar" data="data" options="options" width="chartW" height="chartH"></canvas>
+<a id="downloadBtn" class="button" ng-click="download()">Download</a>
+<ul>
+	<li ng-repeat="d in myChartData">
+		<label>{{d.label}}</label>
+		<input type="number" ng-model="d.value">
+	</li>
+</ul>
